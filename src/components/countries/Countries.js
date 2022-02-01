@@ -1,8 +1,7 @@
 import './Countries.scss';
-import React, {useState , useEffect} from 'react';
+import React, {useState } from 'react';
 import options from '../../api/api.js';
 import axios from 'axios';
-import Status from '../status/Status.js';
 
 export default function Countries(){
 
@@ -27,10 +26,6 @@ const [countries,setCountries] = useState([
     }
     ]);
 
-let num;
-    useEffect(() => {
- 
- },) 
  window.onload = () => {
    
     countries.forEach( item => {
@@ -46,8 +41,7 @@ let num;
 })
 
  } 
- const [arr,setArr] = useState([{name:'',result:0,num}]);  
-     return <div className='Countries'>
+     return <div className='Countries mt-md-0 mt-5'>
         <div className='result-card global'>
                     <div className='countary'>Global</div>
                     <div className='result'>14 M</div>
@@ -57,7 +51,7 @@ let num;
                 {countries.map((el,n) =>        
                 <div className='col-lg-12 col-md-6 p-0' key={n}>
                     <div className='result-card m-md-3'>
-                    <div className='flag'><img src={`svg/${el.name}.svg`} alt={el.name} /></div>
+                    <div className='flag'><img src={`svg/${el.name}.svg`} width="100%" alt={el.name} /></div>
                     <div className='countary'>{el.name}</div>
                     <div className='result'>{el.num}</div>
                 </div>

@@ -1,5 +1,9 @@
-@import '../../components/navBar/Nav.scss';
-@mixin positioning-coro($top,$left) {
+$main:#262C7C;
+$second:#BEC1E0;
+$third:#ffffff;
+$vectors:#EB0065;
+$bg:#F2F3F7;
+  @mixin positioning-coro($top,$left) {
     top: $top;
     left:$left;
 }
@@ -10,9 +14,15 @@ header{
     padding: 5rem 0;
 }
 header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
 }
 //small corons
 header .coronaium .coronaium0{
@@ -62,7 +72,6 @@ header .container .conversation .protect{
     height: 44px;
     font-weight: 500;
     font-size: 1.1rem;
-    margin:1.5rem 2rem 0 1.5rem 0;
 }
 header .container .conversation .doc{
     height: 42px;
@@ -70,12 +79,9 @@ header .container .conversation .doc{
     background-color: inherit;
     color: $third;
     font-weight: 500;
-    margin:1.5rem 0 1.5rem 4rem;
     border-radius: 5px;
     border: 2px solid $third;
     text-transform: uppercase;
     background-color: $main;
-
 }    
-
 

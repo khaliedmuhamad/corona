@@ -1,34 +1,61 @@
-@import '../navBar/Nav.scss';
-.showresult{
+$main:#262C7C;
+$second:#BEC1E0;
+$third:#ffffff;
+$vectors:#EB0065;
+$bg:#F2F3F7;
+
+  .showresult{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: rgba($second, $alpha: 0.95);
     z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 }
 .showresult .container{
     background-color: rgba($third, $alpha: 1);
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 100px 0;
     margin: auto;
-    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); ;
+    -webkit-box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); ;
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 .showresult .container .countary{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 2rem 0 4rem 0;
 }
 .showresult .container .countary .countary-name{
@@ -44,6 +71,8 @@
 
 }
 .showresult .container .results{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
 }

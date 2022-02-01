@@ -10,8 +10,11 @@ const [data,setData] = useState([])
 
 
 useEffect(() => {
-   setData([...state]);
-}, [])
+    const reset =  (e) => {
+        return setData([...e]);
+    };
+    reset(state);
+},[state])
 
 
 

@@ -20,8 +20,11 @@ const [data, setData] = useState([
 ])
 
 useEffect(() => {
-    setData(concat(data,spreadIcons))
-})
+    const rest = () =>{
+        return  setData(concat(data,spreadIcons))
+    }
+    rest();
+},[data])
 
     return ( <>
     <Card mainHead='How coronavirus spread' state={data} column='4' />

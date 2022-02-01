@@ -1,6 +1,7 @@
 import React from 'react';
 import './SeaechRegion.scss';
 import ShowResult from '../showResult/ShowResult.js';
+import { FaRegTimesCircle,FaSearchLocation } from "react-icons/fa";
 import  { useState } from 'react';
    
  
@@ -17,16 +18,19 @@ const search = async e => {
 
 const handelSearch = (e) => setVal(e.target.value);
 
-return (<div className='SeaechRegion'>
+return (<div className='SeaechRegion' id='SeaechRegion'>
     
                 <input type='text' value={val} onChange={handelSearch} onKeyPress={search} className='search' placeholder='Filter to a location'  />
                 <div className='search-icon btn' onClick={ () =>setLoding(true)}>
-                    <i class="fas fa-search-location fa-2x"  ></i>
-                </div>
+                <FaSearchLocation size="70" /> 
+                               </div>
                 { loading ? <div>
                    
                     <div className='show'>
-                    <div className='close btn btn-danger' onClick={ () =>setLoding(false)}><i class="fas fa-times fa-2x"></i></div>
+                    <div className='close btn btn-danger' onClick={ () =>setLoding(false)}>
+                    <FaRegTimesCircle size="70" />
+                        
+                        </div>
                         <ShowResult data={val} />
 
                     </div>

@@ -1,4 +1,9 @@
-@import '../../components/navBar/Nav.scss';
+$main:#262C7C;
+$second:#BEC1E0;
+$third:#ffffff;
+$vectors:#EB0065;
+$bg:#F2F3F7;
+  
 @import './Header.scss';
 /*
 320px — 480px: Mobile devices
@@ -16,14 +21,25 @@
     z-index: 1;
 }
   header .container {
-    align-items: flex-start
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start
 }
   .res{
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    align-content: space-around;
-    justify-content: start;
-    align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 100px;
   }
   header .container .conversation{
@@ -44,14 +60,25 @@ header .container .conversation .head{
     z-index: 1;
 }
   header .container {
-    align-items: flex-start
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start
 }
   .res{
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    align-content: space-around;
-    justify-content: start;
-    align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 100px;
   }
   header .container .conversation{
@@ -71,6 +98,9 @@ header .container .conversation .head{
     @include positioning-coro(-5vh,5vw);
     width:50%
 }
+header .coronaium .coronaium3{
+display: none;
+}
   header{
     padding-bottom:5rem ;
     background-color: $main;
@@ -78,14 +108,25 @@ header .container .conversation .head{
     z-index: 1;
 }
   header .container {
-    align-items: flex-start
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start
 }
   .res{
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    align-content: space-around;
-    justify-content: start;
-    align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 100px;
   }
   header .container .conversation{
@@ -97,8 +138,23 @@ header .container .conversation .head{
 .headcoco{
   width: 50% !important;
 }
+header .container .conversation .protect{
+  font-weight: 600;
+  font-size: 0.6rem;
 }
+header .container .conversation .doc{
+  font-size: 0.7rem;
+  font-weight: 600;
 
+}    
+.container{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+}
+}
 
 
 

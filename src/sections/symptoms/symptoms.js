@@ -20,13 +20,16 @@ const [data, setData] = useState([
 ])
 
 useEffect(() => {
-    setData(concat(data,symptomsIcons))
-})
+    const reSet = () =>{
+        return  setData(concat(data,symptomsIcons))
+    }
+    reSet();
+},[data])
 const intial = {
     height: '340px'
 }
-    return ( <>
+    return ( <div id='Symptoms'>
     <Card mainHead='Symptoms of coronavirus' state={data} column='4' intial={intial}/>
-    </>  ); 
+    </div>  ); 
 
 }

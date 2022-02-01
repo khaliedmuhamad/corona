@@ -24,8 +24,11 @@ const [data, setData] = useState([
 ])
 
 useEffect(() => {
-    setData(concat(data,protectIcons))
-})
+    const resSet = () =>{
+        return setData(concat(data,protectIcons))
+    };
+    resSet()
+},[data])
 const intial = {
     background:'none',
     boxShadow:'none',
@@ -33,8 +36,8 @@ const intial = {
 
 }
 
-    return ( <>
+    return ( <div id='protect'>
     <Card mainHead='Symptoms of coronavirus' state={data} column='3' align='left' intial={intial} />
-    </>  ); 
+    </div>  ); 
 
 }
