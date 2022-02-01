@@ -1,0 +1,81 @@
+@import '../../components/navBar/Nav.scss';
+@mixin positioning-coro($top,$left) {
+    top: $top;
+    left:$left;
+}
+header{
+    background-color: $main;
+    position: relative;
+    z-index: 1;
+    padding: 5rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+//small corons
+header .coronaium .coronaium0{
+    @include positioning-coro(15vh,20vw);
+    position: absolute;
+}
+header .coronaium .coronaium1{
+    @include positioning-coro(90vh,10vw);
+    position: absolute;
+}
+header .coronaium .coronaium2{
+    position: absolute;
+    @include positioning-coro(-5vh,75vw)
+
+}
+header .coronaium .coronaium3{
+    position: absolute;
+    @include positioning-coro(80vh,50vw)
+}
+//------
+//header row
+header .container .conversation{
+    position: relative;
+    top: 80px;
+}
+header .container .conversation .head{
+   color: $third;
+   width: 80%;
+   font-size: 2.5rem;
+   margin:.25rem 0;
+   font-weight: 700;
+}
+header .container .conversation .head-paragraph{
+    text-align: left;
+    color:$second;
+    opacity: 0.7;
+    width: 100%;
+    font-weight: normal;
+    font-size: 1rem;
+    margin:.25rem 0;
+    line-height: 1.5rem;
+}
+header .container .conversation .protect{
+    background-color: #EB0065;
+    border-radius: 5px;
+    color: $third;
+    height: 44px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin:1.5rem 2rem 0 1.5rem 0;
+}
+header .container .conversation .doc{
+    height: 42px;
+    font-size: 1.1rem;
+    background-color: inherit;
+    color: $third;
+    font-weight: 500;
+    margin:1.5rem 0 1.5rem 4rem;
+    border-radius: 5px;
+    border: 2px solid $third;
+    text-transform: uppercase;
+    background-color: $main;
+
+}    
+
+

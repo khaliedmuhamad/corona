@@ -1,0 +1,11 @@
+@import '../../components/navBar/Nav.scss' ;
+
+.dashboard{
+    background: $bg;
+}
+.dashboard .col-4{
+    padding-right: 0 !important;
+}
+.dashboard .col-8{
+    padding-left: 0 !important;
+}

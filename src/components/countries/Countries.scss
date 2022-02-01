@@ -1,0 +1,44 @@
+@import '../navBar/Nav.scss';
+.Countries .result-card{
+    display: flex;
+    margin: 1.5rem 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: $bg;
+    padding:0.5rem ;
+    align-items: baseline;
+    border-radius: 5px;
+}
+.Countries .result-card.global{
+    color: $main;
+    background: #ffff;
+    border:1px solid  $main ;
+}
+.Countries .result-card .flag{
+    width: 12%;
+}
+.Countries .result-card .flag img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Countries .result-card .countary{
+    color: #2D2E39;
+    font-weight: 500;
+    flex-grow: 1;
+    padding: 0 0.5rem;
+}
+.Countries .result-card .result{
+    color: #6468A1;
+}
+.line{
+    border-color: #DADBE7;
+    border-width: 2px;
+}
+.Countries .result-card.global .countary{
+    color: $main;
+    font-weight: 640;
+
+}
+.Countries.result-card.global .result{
+    color: $main
+}

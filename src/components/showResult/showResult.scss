@@ -1,0 +1,49 @@
+@import '../navBar/Nav.scss';
+.showresult{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($second, $alpha: 0.95);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.showresult .container{
+    background-color: rgba($third, $alpha: 1);
+    flex-direction: column;
+    padding: 100px 0;
+    margin: auto;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.showresult .container .countary{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 4rem 0;
+}
+.showresult .container .countary .countary-name{
+    color: $second;
+}
+.showresult .container .countary .countary-name span{
+    color: $main
+}
+.showresult .container .countary .countary-flag{
+    width: 60px;
+    margin:0 8px ;
+    border-radius: 10px;
+
+}
+.showresult .container .results{
+    display: flex;
+    width: 100%;
+}

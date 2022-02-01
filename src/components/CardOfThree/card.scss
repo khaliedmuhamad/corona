@@ -1,0 +1,52 @@
+@import '../navBar/Nav.scss';
+.cardOfThree{
+    background: $bg;
+    padding: 3rem 0;
+}
+.cardOfThree .container .mainHead{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $main;
+}
+.cardOfThree .container .three-cards{
+    margin: 0;
+}
+.cardOfThree .container .three-cards .item{
+    background: $third;
+    text-align: center;
+    padding: 5px;   
+    box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259), 0px 4px 8px rgba(190, 193, 224, 0.320039);
+    border-radius: 10px;
+    min-height: 300px;
+}
+.cardOfThree .container .three-cards .item .icon-card{
+    min-height: 115px;
+    
+}
+.cardOfThree .container .three-cards .item .icon-card svg{
+    border-radius: 50%;
+    
+}
+.cardOfThree .container .three-cards .item .head-card{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0.7rem 0;
+    color: $main;
+}
+.cardOfThree .container .three-cards .item .paragraph-card{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #6468A1;
+}
+
+@media (min-width: 576px) { 
+    .cardOfThree .container .three-cards .item{
+       margin: 1rem;
+    }
+ }

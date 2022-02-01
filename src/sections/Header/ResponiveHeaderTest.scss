@@ -1,0 +1,106 @@
+@import '../../components/navBar/Nav.scss';
+@import './Header.scss';
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
+
+@media (min-width: 769px)and(max-width:1024px) { 
+  header{
+    padding-bottom:5rem ;
+    background-color: $main;
+    position: relative;
+    z-index: 1;
+}
+  header .container {
+    align-items: flex-start
+}
+  .res{
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+  }
+  header .container .conversation{
+    top: 50px;
+}
+header .container .conversation .head{
+ display: inline-block;
+
+}
+}
+//iPads, Tablets
+@media (min-width: 481px)and(max-width:768px) { 
+
+  header{
+    padding-bottom:5rem ;
+    background-color: $main;
+    position: relative;
+    z-index: 1;
+}
+  header .container {
+    align-items: flex-start
+}
+  .res{
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+  }
+  header .container .conversation{
+    top: 50px;
+}
+header .container .conversation .head{
+ display: inline-block;
+}
+.headcoco{
+  width: 50% !important;
+}
+}
+
+@media (min-width: 320px)and(max-width:481px) { 
+  header .coronaium .coronaium2{
+    position: absolute;
+    @include positioning-coro(-5vh,5vw);
+    width:50%
+}
+  header{
+    padding-bottom:5rem ;
+    background-color: $main;
+    position: relative;
+    z-index: 1;
+}
+  header .container {
+    align-items: flex-start
+}
+  .res{
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+  }
+  header .container .conversation{
+    top: 50px;
+}
+header .container .conversation .head{
+ display: inline-block;
+}
+.headcoco{
+  width: 50% !important;
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+@import '../navBar/Nav.scss';
+.cards{
+    display: flex;
+}
+.cards .icon {
+    width: 100%;
+}
+.cards .paragraph {
+    color: $second;
+    font-size: 0.99rem;
+
+}
+.cards .haed {
+    color: $main;
+    font-size:1.5rem ;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+@import '../../components/navBar/Nav.scss';
+
+.statistics{
+    padding: 2rem 0;
+    background-color: $bg;
+    background: linear-gradient(to bottom,#262C7C 50% , #F2F3F7 50%);
+}
+.statistics .container {
+    background: $third;
+    box-shadow:0 4px 8px rgba(190, 193, 224, 0.320039); ;
+    z-index: 1;
+    border-radius: 10px;
+    padding:3rem 1rem;
+    margin:0 auto ;
+}

@@ -1,0 +1,70 @@
+@import '../../components/navBar/Nav.scss';
+
+.footer{
+    background-color: $main;
+    color: $third;
+    padding: 5.5rem 0 1rem 0;
+}
+.footer a{
+    color: $third;
+}
+.footer a:hover{
+    color: $vectors;
+
+}
+.footer .container .row .brand-about{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    margin: 1rem 0 0 0;
+}
+
+.footer .container .row .links .head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E4E5F7;
+text-transform: uppercase;
+}
+.footer .container .row .links .links-item h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: $second;
+}
+.footer .container .row .contact .contact-head, .social-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $second;
+}
+.footer .container .row .contact .contact-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer .container .row .social .item-social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 0.25rem;
+    color: $vectors;
+    border:1px solid #D8D8D8;
+}
+.footer .container .copy{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: $third
+}

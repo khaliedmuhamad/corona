@@ -1,0 +1,38 @@
+
+@media (min-width: 769px)and(max-width:1024px) { 
+
+    .showresult .container .results {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media (min-width: 481px)and(max-width:768px) { 
+    .showresult .container .results {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  //Mobile devices
+  @media (min-width: 320)and(max-width:480px) { 
+    .showresult .container .results {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  }
+  
