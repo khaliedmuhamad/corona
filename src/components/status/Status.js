@@ -69,7 +69,7 @@ export default function Status(props) {
              para:'Total Deaths'                      
         }
 ]);
-
+const [loading,setLoading] = useState(false)
 useEffect(() =>{
     options.params.country = props.scope ;
 axios.request(options)
@@ -79,7 +79,7 @@ axios.request(options)
     num[2].head = respo.cases.recovered;
     num[3].head = respo.deaths.total;
 
-
+    setLoading(true);
 }).catch(err =>{
     alert(`${props.scope} يجدع في بلد بالاسم دا ظظ 😂😂`)
 })
