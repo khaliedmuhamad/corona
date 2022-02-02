@@ -1,22 +1,28 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  
-.statistics{
-    padding: 2rem 0;
-    background-color: $bg;
-    background: -webkit-gradient(linear,left top, left bottom,color-stop(50%, #262C7C) , color-stop(50%, #F2F3F7));
-    background: -o-linear-gradient(top,#262C7C 50% , #F2F3F7 50%);
-    background: linear-gradient(to bottom,#262C7C 50% , #F2F3F7 50%);
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
+
+.statistics {
+  padding: 2rem 0;
+  background-color: $bg;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(50%, #262c7c),
+    color-stop(50%, #f2f3f7)
+  );
+  background: -o-linear-gradient(top, #262c7c 50%, #f2f3f7 50%);
+  background: linear-gradient(to bottom, #262c7c 50%, #f2f3f7 50%);
 }
 .statistics .container {
-    background: $third;
-    -webkit-box-shadow:0 4px 8px rgba(190, 193, 224, 0.320039);
-            box-shadow:0 4px 8px rgba(190, 193, 224, 0.320039); ;
-    z-index: 1;
-    border-radius: 10px;
-    padding:3rem 1rem;
-    margin:0 auto ;
+  background: $third;
+  -webkit-box-shadow: 0 4px 8px rgba(190, 193, 224, 0.320039);
+  box-shadow: 0 4px 8px rgba(190, 193, 224, 0.320039);
+  z-index: 1;
+  border-radius: 10px;
+  padding: 3rem 1rem;
+  margin: 0 auto;
 }

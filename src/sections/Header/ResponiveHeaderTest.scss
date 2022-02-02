@@ -1,10 +1,10 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  
-@import './Header.scss';
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
+
+@import "./Header.scss";
 /*
 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
@@ -13,150 +13,142 @@ $bg:#F2F3F7;
 1201px and more —  Extra large screens, TV
 */
 
-@media (min-width: 769px)and(max-width:1024px) { 
-  header{
-    padding-bottom:5rem ;
+@media (min-width: 769px) and(max-width:1024px) {
+  header {
+    padding-bottom: 5rem;
     background-color: $main;
     position: relative;
     z-index: 1;
-}
+  }
   header .container {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start
-}
-  .res{
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .res {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -ms-flex-line-pack: distribute;
-        align-content: space-around;
+    align-content: space-around;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 100px;
   }
-  header .container .conversation{
+  header .container .conversation {
     top: 50px;
-}
-header .container .conversation .head{
- display: inline-block;
-
-}
+  }
+  header .container .conversation .head {
+    display: inline-block;
+  }
 }
 //iPads, Tablets
-@media (min-width: 481px)and(max-width:768px) { 
-
-  header{
-    padding-bottom:5rem ;
+@media (min-width: 481px) and(max-width:768px) {
+  header {
+    padding-bottom: 5rem;
     background-color: $main;
     position: relative;
     z-index: 1;
-}
+  }
   header .container {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start
-}
-  .res{
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .res {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -ms-flex-line-pack: distribute;
-        align-content: space-around;
+    align-content: space-around;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 100px;
   }
-  header .container .conversation{
+  header .container .conversation {
     top: 50px;
-}
-header .container .conversation .head{
- display: inline-block;
-}
-.headcoco{
-  width: 50% !important;
-}
+  }
+  header .container .conversation .head {
+    display: inline-block;
+  }
+  .headcoco {
+    width: 50% !important;
+  }
 }
 
-@media (min-width: 320px)and(max-width:481px) { 
-  header .coronaium .coronaium2{
+@media (min-width: 320px) and(max-width:481px) {
+  header .coronaium .coronaium2 {
     position: absolute;
-    @include positioning-coro(-5vh,5vw);
-    width:50%
-}
-header .coronaium .coronaium3{
-display: none;
-}
-  header{
-    padding-bottom:5rem ;
+    @include positioning-coro(-5vh, 5vw);
+    width: 50%;
+  }
+  header .coronaium .coronaium3 {
+    display: none;
+  }
+  header {
+    padding-bottom: 5rem;
     background-color: $main;
     position: relative;
     z-index: 1;
-}
+  }
   header .container {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start
-}
-  .res{
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .res {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -ms-flex-line-pack: distribute;
-        align-content: space-around;
+    align-content: space-around;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 100px;
   }
-  header .container .conversation{
+  header .container .conversation {
     top: 50px;
+  }
+  header .container .conversation .head {
+    display: inline-block;
+  }
+  .headcoco {
+    width: 50% !important;
+  }
+  header .container .conversation .protect {
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+  header .container .conversation .doc {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100%;
+  }
 }
-header .container .conversation .head{
- display: inline-block;
-}
-.headcoco{
-  width: 50% !important;
-}
-header .container .conversation .protect{
-  font-weight: 600;
-  font-size: 0.6rem;
-}
-header .container .conversation .doc{
-  font-size: 0.7rem;
-  font-weight: 600;
-
-}    
-.container{
-  padding: 0;
-  margin: 0;
-}
-body{
-  width: 100%;
-}
-}
-
-
-
-
-

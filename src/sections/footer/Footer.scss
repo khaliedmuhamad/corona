@@ -1,93 +1,89 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
 
-.footer{
-    background-color: $main;
-    color: $third;
-    padding: 5.5rem 0 1rem 0;
+.footer {
+  background-color: $main;
+  color: $third;
+  padding: 5.5rem 0 1rem 0;
 }
-.footer a{
-    color: $third;
+.footer a {
+  color: $third;
 }
-.footer a:hover{
-    color: $vectors;
-
+.footer a:hover {
+  color: $vectors;
 }
-.footer .container .row .brand-about{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    opacity: 0.8;
-    margin: 1rem 0 0 0;
+.footer .container .row .brand-about {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.8;
+  margin: 1rem 0 0 0;
 }
 
-.footer .container .row .links .head{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #E4E5F7;
-text-transform: uppercase;
+.footer .container .row .links .head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e4e5f7;
+  text-transform: uppercase;
 }
-.footer .container .row .links .links-item h4{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    color: $second;
+.footer .container .row .links .links-item h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: $second;
 }
-.footer .container .row .contact .contact-head, .social-head {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: $second;
+.footer .container .row .contact .contact-head,
+.social-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $second;
 }
 .footer .container .row .contact .contact-info {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
 }
-.footer .container .row .social .item-social a{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin: 0 0.25rem;
-    color: $vectors;
-    border:1px solid #D8D8D8;
+.footer .container .row .social .item-social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 0.25rem;
+  color: $vectors;
+  border: 1px solid #d8d8d8;
 }
-.footer .container .copy{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 22px;
-color: $third
+.footer .container .copy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: $third;
 }
-.email{
-    color: $vectors;
-    text-decoration: underline;
+.email {
+  color: $vectors;
+  text-decoration: underline;
 }
-@media (min-width: 320)and(max-width:480px) { 
-  .email{
-      font-size: xx-small;
+@media (min-width: 320) and(max-width:480px) {
+  .email {
+    font-size: xx-small;
   }
-     
-  
-  }
-  
+}

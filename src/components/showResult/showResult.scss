@@ -1,78 +1,75 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
 
-  .showresult{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba($second, $alpha: 0.95);
-    z-index: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-
+.showresult {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($second, $alpha: 0.95);
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-.showresult .container{
-    background-color: rgba($third, $alpha: 1);
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 100px 0;
-    margin: auto;
-    -webkit-box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
-            box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); ;
-    border-radius: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    
+.showresult .container {
+  background-color: rgba($third, $alpha: 1);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 100px 0;
+  margin: auto;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-.showresult .container .countary{
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 2rem 0 4rem 0;
+.showresult .container .countary {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
 }
-.showresult .container .countary .countary-name{
-    color: $second;
+.showresult .container .countary .countary-name {
+  color: $second;
 }
-.showresult .container .countary .countary-name span{
-    color: $main
+.showresult .container .countary .countary-name span {
+  color: $main;
 }
-.showresult .container .countary .countary-flag{
-    width: 60px;
-    margin:0 8px ;
-    border-radius: 10px;
-
+.showresult .container .countary .countary-flag {
+  width: 60px;
+  margin: 0 8px;
+  border-radius: 10px;
 }
-.showresult .container .results{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
+.showresult .container .results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
 }

@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./status.scss";
+import "../status/status.scss";
 import options from "../../api/api.js";
-import total from "../../api/api.js";
 
 import axios from "axios";
-export default function Status(props) {
+export default function ResultBoard(props) {
   const [num] = useState([
     {
       svg: (
@@ -83,8 +82,7 @@ export default function Status(props) {
           />
         </svg>
       ),
-      para: "Stats Overview",
-      head: "Global",
+      para: "New Cases",
     },
     {
       svg: (
@@ -293,6 +291,7 @@ export default function Status(props) {
         .request(options)
         .then((res) => {
           const respo = res.data.response[0];
+          num[0].head = respo.cases.new;
           num[1].head = respo.cases.total;
           num[2].head = respo.cases.recovered;
           num[3].head = respo.deaths.total;

@@ -1,45 +1,41 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  
-   
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
 
-.navbar{
-    background-color: $main;
-    z-index: 2;
-    border-bottom:1px solid #bec1e045;
+.navbar {
+  background-color: $main;
+  z-index: 2;
+  border-bottom: 1px solid #bec1e045;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: $second !important;
-    font-size:14px;
-    line-height: 22px;
-    letter-spacing: 0.2px;
+  color: $second !important;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: $vectors !important;
+  color: $vectors !important;
 }
 .navbar-light .navbar-nav .nav-link.active {
-    color: $vectors !important;
+  color: $vectors !important;
 }
 
-.navbar-collapse.collapsed{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 80px;
-    font-weight: 600;
-    left: 0;
-    font-size: 10rem !important;
-    text-align: center;
-    z-index: 2;  
-    background-color: $main;
-
+.navbar-collapse.collapsed {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 80px;
+  font-weight: 600;
+  left: 0;
+  font-size: 10rem !important;
+  text-align: center;
+  z-index: 2;
+  background-color: $main;
 }
 
-.navbar-collapse.collapsed a{
-    font-size: 4rem !important;
-    margin:20px 0 ;
+.navbar-collapse.collapsed a {
+  font-size: 4rem !important;
+  margin: 20px 0;
 }
-

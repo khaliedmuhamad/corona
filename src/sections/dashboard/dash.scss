@@ -1,15 +1,15 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  
-.dashboard{
-    background: $bg;
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
+
+.dashboard {
+  background: $bg;
 }
-.dashboard .col-4{
-    padding-right: 0 !important;
+.dashboard .col-4 {
+  padding-right: 0 !important;
 }
-.dashboard .col-8{
-    padding-left: 0 !important;
+.dashboard .col-8 {
+  padding-left: 0 !important;
 }

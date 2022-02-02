@@ -1,23 +1,22 @@
-$main:#262C7C;
-$second:#BEC1E0;
-$third:#ffffff;
-$vectors:#EB0065;
-$bg:#F2F3F7;
-  .cards{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+$main: #262c7c;
+$second: #bec1e0;
+$third: #ffffff;
+$vectors: #eb0065;
+$bg: #f2f3f7;
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .cards .icon {
-    width: 100%;
+  width: 100%;
 }
 .cards .paragraph {
-    color: $second;
-    font-size: 0.99rem;
-
+  color: $second;
+  font-size: 0.99rem;
 }
 .cards .haed {
-    color: $main;
-    font-size:1.5rem ;
-    font-weight: 500;
+  color: $main;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
