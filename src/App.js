@@ -10,11 +10,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "./sections/footer/Footer";
 import { Contact } from "./sections/contacts/contact";
 import Nav from "./components/navBar/Nav";
+import Resala from "./components/resala/resala";
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Resala />
       <Header />
       <Statistics />
       <Dash />

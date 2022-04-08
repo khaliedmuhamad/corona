@@ -1,0 +1,15 @@
+.resala{
+    background: #ffffff;
+    z-index: 9999;
+}
+.resala-logo{
+    position: absolute;
+    inset: 100px 0 0px 20px ;
+    z-index: 9999;
+    background: #b4b9c2c9;
+}
+.resala-logo:hover{
+    background: #ffffffc9;
+    transition: all 0.3s linear;
+    
+}
