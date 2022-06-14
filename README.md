@@ -2,7 +2,7 @@
 
 <h2>🚀 Demo</h2>
 
-(https://cocoro.netlify.app/)](https://cocoro.netlify.app/)
+(https://cocoro.netlify.app/)
 
   
 <h2>💻 Built with</h2>
